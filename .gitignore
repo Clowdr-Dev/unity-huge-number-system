@@ -1,0 +1,44 @@
+# Unity generated data
+/[Ll]ibrary/
+/[Tt]emp/
+/[Oo]bj/
+/[Bb]uild/
+/[Bb]uilds/
+/[Ll]ogs/
+/[Uu]ser[Ss]ettings/
+/ProjectSettings/SceneTemplateSettings.json
+/[Aa]rtifacts/
+/[Tt]est[Rr]esults/
+/[Mm]emoryCaptures/
+/[Rr]ecordings/
+
+# Unity generated project files
+*.csproj
+*.unityproj
+*.sln
+*.slnx
+*.user
+*.userprefs
+*.pidb
+*.booproj
+*.svd
+*.pdb
+*.mdb
+*.opendb
+*.VC.db
+
+# Local editor and package state
+.vs/
+.idea/
+.utmp/
+.DS_Store
+*.log
+
+# Build outputs
+*.apk
+*.aab
+*.app
+*.unitypackage
+
+# Generated Unity test scenes
+InitTestScene*.unity*

@@ -1,0 +1,22 @@
+{
+    "name": "HugeNumberSystem.Numerics.Player.Tests",
+    "rootNamespace": "HugeNumberSystem.Numerics.Player.Tests",
+    "references": [
+        "HugeNumberSystem.Numerics.Core",
+        "HugeNumberSystem.Numerics.Persistence",
+        "UnityEngine.TestRunner"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": true,
+    "precompiledReferences": [
+        "nunit.framework.dll"
+    ],
+    "autoReferenced": false,
+    "defineConstraints": [
+        "UNITY_INCLUDE_TESTS"
+    ],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

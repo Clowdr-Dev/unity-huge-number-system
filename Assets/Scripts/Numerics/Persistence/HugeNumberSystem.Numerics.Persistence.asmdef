@@ -1,0 +1,16 @@
+{
+    "name": "HugeNumberSystem.Numerics.Persistence",
+    "rootNamespace": "HugeNumberSystem.Numerics.Persistence",
+    "references": [
+        "HugeNumberSystem.Numerics.Core"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": true
+}

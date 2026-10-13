@@ -1,0 +1,19 @@
+{
+    "name": "HugeNumberSystem.Numerics.Editor",
+    "rootNamespace": "HugeNumberSystem.Numerics.Editor",
+    "references": [
+        "HugeNumberSystem.Numerics.Core",
+        "HugeNumberSystem.Numerics.Authoring"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

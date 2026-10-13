@@ -1,0 +1,16 @@
+{
+    "name": "HugeNumberSystem.Numerics.Authoring",
+    "rootNamespace": "HugeNumberSystem.Numerics.Authoring",
+    "references": [
+        "HugeNumberSystem.Numerics.Core"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
