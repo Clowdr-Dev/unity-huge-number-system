@@ -19,7 +19,7 @@ Other Unity versions, IL2CPP, mobile, and WebGL have not been validated for this
 Clone this repository and open its root folder through Unity Hub. Unity restores the declared packages and generates the ignored `Library` and local editor folders.
 
 ```sh
-git clone https://github.com/ArtyT/unity-huge-number-system.git
+git clone https://github.com/Clowdr-Dev/unity-huge-number-system.git
 cd unity-huge-number-system
 ```
 
