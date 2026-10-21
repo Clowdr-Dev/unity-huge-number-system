@@ -6,8 +6,6 @@ Public source changes are recorded here. This preview has not yet been tagged as
 
 ### Added
 
-- Interactive Unity Editor showcase for arithmetic, formatting, JSON round trips, and the serialized Inspector drawer, with a real screenshot in the public README.
-
 - Public `HugeNumberSystem.Numerics` namespaces and assembly definitions.
 - Normalized immutable HugeNumber core with arithmetic, comparisons, parsing, explicit conversion, powers, and logarithms.
 - Compact, scientific, and engineering formatting with configurable suffix providers.

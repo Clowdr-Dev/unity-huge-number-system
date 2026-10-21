@@ -3,9 +3,7 @@
     "rootNamespace": "HugeNumberSystem.Numerics.Editor",
     "references": [
         "HugeNumberSystem.Numerics.Core",
-        "HugeNumberSystem.Numerics.Authoring",
-        "HugeNumberSystem.Numerics.Presentation",
-        "HugeNumberSystem.Numerics.Persistence"
+        "HugeNumberSystem.Numerics.Authoring"
     ],
     "includePlatforms": [
         "Editor"

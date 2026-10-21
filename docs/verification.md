@@ -56,10 +56,4 @@ You can also use **Window > General > Test Runner** in the Editor to run EditMod
 
 The suite covers normalization, exponent limits, comparisons, arithmetic, randomized double-reference checks, allocation-free hot paths, powers, parsing, primitive conversion, culture handling, formatting boundaries, serialized authoring, and version-one JSON persistence.
 
-The PlayMode tests run inside the Editor and are compatible with player test assemblies. They do not constitute an IL2CPP or device build test. This release has not established mobile, WebGL, other Unity versions, or comprehensive visual coverage of Inspector multi-object and prefab workflows. Add those checks when supporting those targets or preparing the later Unity distribution. The verification script has been exercised on Windows PowerShell 5.1; its macOS/Linux paths require validation on those hosts.
-
-## Public publishing check — 2026-10-21
-
-The publishing preparation passed **108 EditMode tests and 2 PlayMode tests**, with zero failures, skips, or inconclusive results, on Unity **6000.5.4f1** and Windows. The suites ran through `scripts/verify.ps1` in an isolated source copy; its showcase source and assembly definition were checked against the publishing branch. The temporary Pipeline capture package was removed before these tests and is not part of the public dependency manifest.
-
-The included **Huge Number System > Showcase** window was inspected live. Its screenshot shows `1.25e12000`, an affordable cost of `5e11999`, a remaining value of `7.5e11999`, notation formatting, a matching version-one JSON save round trip, and the actual serialized property drawer. The Editor console reported no errors during capture. The screenshot is included in the [README](../README.md#explore-in-unity).
+The PlayMode tests run inside the Editor and are compatible with player test assemblies. They do not constitute an IL2CPP or device build test. This release has not established mobile, WebGL, other Unity versions, or a visual review of the Inspector drawer. Add those checks when supporting those targets or preparing the later Unity distribution. The verification script has been exercised on Windows PowerShell 5.1; its macOS/Linux paths require validation on those hosts.

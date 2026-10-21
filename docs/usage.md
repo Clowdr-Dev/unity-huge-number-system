@@ -18,10 +18,6 @@ When your consumer has an `.asmdef`, reference the assemblies it uses:
 
 Core, Presentation, and Persistence do not reference Unity. Authoring uses Unity serialization; Editor is restricted to the Editor platform. This repository is not yet an installable UPM package.
 
-## Interactive Editor showcase
-
-Choose **Huge Number System > Showcase** to explore an invariant input, upgrade affordability, subtraction, notation formatting, JSON persistence, and the existing serialized property drawer. The displayed values are calculated by the same public APIs shown below. All showcase code is contained in the Editor-only assembly.
-
 ## Construct and calculate
 
 ```csharp
