@@ -12,7 +12,15 @@ This repository is a standalone Unity project and a source preview. The public n
 - Unity Test Framework **1.7.0**, already declared in this project's package manifest.
 - Windows PowerShell 5.1 or PowerShell 7 for the verification script.
 
-Other Unity versions, IL2CPP, mobile, and WebGL have not been validated for this release. Unity packaging, example scenes, and Asset Store distribution are planned for a later phase.
+Other Unity versions, IL2CPP, mobile, and WebGL have not been validated for this release. An interactive Editor showcase is included. UPM packaging, runtime example scenes, and Asset Store distribution are planned for a later phase.
+
+## Explore in Unity
+
+Open **Huge Number System > Showcase** in the Unity Editor. Enter a number such as `1.25e12000` to inspect arithmetic beyond `double` range, scientific and engineering formatting, a versioned JSON round trip, and the real serialized Inspector drawer.
+
+![The Huge Number System showcase running in Unity: a value of 1.25e12000, upgrade affordability and subtraction, formatting, a matching save round trip, and editable mantissa/exponent fields.](docs/images/huge-number-system-showcase.png)
+
+The screenshot is captured from the included Editor window, using the library's public APIs. It can be reproduced from the menu after opening the project. The showcase is an Editor tool; it adds no runtime UI dependency to the numeric library.
 
 ## Get started
 
@@ -86,5 +94,7 @@ Each run saves fresh XML results, logs, and `summary.json` beneath `artifacts/ve
 Changes are recorded in [CHANGELOG.md](CHANGELOG.md). See [CONTRIBUTING.md](CONTRIBUTING.md) for contributing and reporting bugs.
 
 ## License
+
+**Noncommercial source-available software.** This is not an unrestricted open-source license.
 
 Source is available under the **PolyForm Noncommercial License 1.0.0**. See [LICENSE](LICENSE) for permitted purposes and conditions, and preserve the required notice in [NOTICE](NOTICE) when distributing the software. Commercial use outside the license's permitted purposes requires separate permission from the copyright holder.
